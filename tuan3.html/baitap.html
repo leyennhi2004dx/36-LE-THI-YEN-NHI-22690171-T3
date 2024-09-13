@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>document </title>
+        <style> 
+            * { 
+                box-sizing: border-box ;
+                margin: 0 auto ;
+            }
+            #k1 { 
+                width: 900px;
+                height: 150px;
+                background-color: black ;
+            }
+            #c1 li {
+                width: 150px ;
+                float: left ;
+                background-color: pink;
+                list-style-type: none ;
+                height: 40px;
+                text-align: center;
+                line-height: 40px;
+                margin-left: 10px ;
+            
+            }
+            a { 
+                text-decoration: none;
+            }
+            #c2 li {
+                display: none;
+            }
+            #c1 li:hover #c2 li { 
+                display: block ;
+            }
+        </style>
+    
+    </head>
+    <Body> 
+        <div>
+            <ul id="c1">
+                <li> <a href="#"> Home1 </a></li>
+                <li> <a href="#"> Home2 </a></li>
+                <li> <a href="#"> Home3 </a>
+                    <ul>
+                        <li> <a href="#"> Edit 1 </a> </li>
+                        <li> <a href="#"> Edit 2 </a> </li>
+                        <li> <a href="#"> Edit 3 </a> </li>
+                    </ul>
+                </li>
+                <li> <a href="#"> Home4 </a></li>
+                <li> <a href="#"> Home5 </a></li>
+            </ul>
+        </div>
+        </Body>
+</html>
